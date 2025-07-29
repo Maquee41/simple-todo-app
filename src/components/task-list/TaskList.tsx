@@ -5,7 +5,7 @@ export function TaskList() {
   return (
     <div className="border-3 border-[#C6C6C6] rounded-md">
       {TASKS.map(task => (
-        <TaskItem key={task.title} task={task}  />
+        <TaskItem key={task.id} task={task}  />
       ))}
     </div>
   );
