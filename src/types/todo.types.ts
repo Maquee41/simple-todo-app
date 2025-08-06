@@ -1,5 +1,5 @@
 export interface ITask {
-  id: number,
+  id: number
   title: string
   done: boolean
 }
@@ -9,6 +9,6 @@ export interface IList {
 }
 
 export interface IWorkspace {
-  id: number,
+  id: number
   name: string
 }
